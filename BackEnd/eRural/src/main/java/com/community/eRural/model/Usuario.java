@@ -11,21 +11,26 @@ import javax.validation.constraints.Size;
 @Entity
 @Table(name = "Usuario")
 public class Usuario {
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 
 	@NotNull
-	@Size(min = 2)
+	@Size(min = 2, max = 100)
 	private String nome;
+
+	@NotNull
+	@Size(min = 5, max = 100)
+	private String usuario;//email
+
+	@NotNull
+	@Size (min= 3, max=10)
+	private String tipoUsuario;
+	
 	
 	@NotNull
-	@Size(min = 11)
-	private String email ;
-	
-	@NotNull
-	@Size(min= 8,max = 8)
+	@Size(min = 5, max = 100)
 	private String senha;
 
 	public long getId() {
@@ -44,12 +49,12 @@ public class Usuario {
 		this.nome = nome;
 	}
 
-	public String getEmail() {
-		return email;
+	public String getUsuario() {
+		return usuario;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setUsuario(String usuario) {
+		this.usuario = usuario;
 	}
 
 	public String getSenha() {
@@ -60,6 +65,12 @@ public class Usuario {
 		this.senha = senha;
 	}
 
-	
-	
+	public String getTipoUsuario() {
+		return tipoUsuario;
+	}
+
+	public void setTipoUsuario(String tipoUsuario) {
+		this.tipoUsuario = tipoUsuario;
+	}
+
 }

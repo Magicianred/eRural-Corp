@@ -2,12 +2,22 @@ package com.community.eRural.model;
 
 public class UserLogin {
 
-	//como será uma forma de acesso de dados já existentes não há necessidade de incluir anotações
+	private String nome;
 
 	private String usuario;
 
+	private String tipoUsuario;
 	private String senha;
 
+	private String token;
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
 
 	public String getUsuario() {
 		return usuario;
@@ -24,7 +34,21 @@ public class UserLogin {
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
-	
-	
-	
+
+	public String getToken() {
+		return token;
+	}
+
+	public void setToken(String token) {
+		this.token = token;
+	}
+
+	public String getTipoUsuario() {
+		return tipoUsuario;
+	}
+
+	public void setTipoUsuario(String tipoUsuario) {
+		this.tipoUsuario = tipoUsuario;
+	}
+
 }
