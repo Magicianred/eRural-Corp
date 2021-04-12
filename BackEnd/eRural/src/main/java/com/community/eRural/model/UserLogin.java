@@ -2,22 +2,13 @@ package com.community.eRural.model;
 
 public class UserLogin {
 
-	private String nome;
-
 	private String usuario;
 
 	private String tipoUsuario;
+
 	private String senha;
 
 	private String token;
-
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
 
 	public String getUsuario() {
 		return usuario;
