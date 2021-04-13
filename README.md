@@ -3,6 +3,9 @@
 > E-commerce que ira conectar produtores e consumidores. Nesse sistema, serão comercializados produtos para trabalhar com agricultura, como: ferramentas,produtos para o cultivo e consumo.
 
 
+ <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+</p>
+
 
  <!--## Idealizadores:
 
