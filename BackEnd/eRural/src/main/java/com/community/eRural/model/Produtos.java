@@ -33,8 +33,8 @@ public class Produtos {
 	private double peso;
 
 	@NotNull
-	@Digits(integer = 5, fraction = 2) // @Digits suporta "BigDecimal,BigInteger,CharSequence,Int,long..short entre
-										// outros.(interger ex:10.000, fraction 0,02)"
+	@Digits(integer = 5, fraction = 2)
+										
 	private double preco;
 	
 	@NotNull	

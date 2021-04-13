@@ -43,10 +43,10 @@ public class UsuarioService {
 				byte[] encodedAuth = Base64.encodeBase64(auth.getBytes(Charset.forName("US-ASCII")));
 				String authHeader = "Basic " + new String(encodedAuth);
 
-				user.get().setToken(authHeader);
-				user.get().setUsuario(usuario.get().getUsuario());
-				user.get().setTipoUsuario(usuario.get().getTipoUsuario());
+				user.get().setToken(authHeader);		
+				user.get().setNome(usuario.get().getNome());
 				user.get().setSenha(usuario.get().getSenha());
+				user.get().setTipoUsuario(usuario.get().getTipoUsuario());
 
 				return user;
 

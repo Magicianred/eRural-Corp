@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import com.community.eRural.Repository.UsuarioRepository;
 import com.community.eRural.model.Usuario;
 
-//3 terceiro
+
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

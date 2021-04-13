@@ -20,7 +20,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Categorias {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY) // @GENERATEVALUE == CRIAR UM ID AUTOMATICO
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
 
 	@NotNull
