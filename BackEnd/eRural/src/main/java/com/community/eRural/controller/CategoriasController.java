@@ -18,12 +18,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.community.eRural.Repository.CategoriasRepository;
 import com.community.eRural.model.Categorias;
 
-@RestController //ESSE CHAMA A BIBLIOTECA CONTROLLER 
-@RequestMapping("/categorias")//SERVE P/ FAZER UM EDPOINT
-@CrossOrigin(origins= "*", allowedHeaders = "*")// ESSES * SERVE P/ RODAR EM VARIAS FRAMEWORKS
+@RestController
+@RequestMapping("/categorias")
+@CrossOrigin(origins= "*", allowedHeaders = "*")
 public class CategoriasController {
 	
-	@Autowired// SERVE P/ INSERIR(INJETAR) A CATEGORIASREPOSITORY
+	@Autowired
 	private CategoriasRepository repository;
 	
 	@GetMapping

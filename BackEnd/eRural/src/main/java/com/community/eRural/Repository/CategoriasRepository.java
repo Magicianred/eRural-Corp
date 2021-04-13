@@ -9,8 +9,7 @@ import com.community.eRural.model.Categorias;
 @Repository
 
 
-public interface CategoriasRepository extends JpaRepository<Categorias, Long> // AQUI É UMA INTERFACE FILHA QUE CHAMA A
-																				// MAE COM O EXTENDS(JPA REPOSITORY)
+public interface CategoriasRepository extends JpaRepository<Categorias, Long>
 {
 
 	public List<Categorias> findAllByNomeContainingIgnoreCase(String nome);
