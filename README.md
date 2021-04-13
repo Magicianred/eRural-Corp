@@ -3,7 +3,7 @@
 > E-commerce que ira conectar produtores e consumidores. Nesse sistema, serão comercializados produtos para trabalhar com agricultura, como: ferramentas,produtos para o cultivo e consumo.
 
 
- <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge"/>
+ <img src="http://img.shields.io/static/v1?label=STATUS&message=OPA%20HTINHO&color=RED&style=for-the-badge"/>
 </p>
 
 
@@ -11,7 +11,7 @@
 
  <!--<table>
   <tr>
-    <!--td align="center"><a href="https://github.com/WellingtonSB"><img style="border-radius: 50%;" src="https://i.imgur.com/76YXVmC.jpg" width="140px;" alt=""/><br /><sub><b>Wellington Bezerra</b></sub></a><br /></td>
+<!--td align="center"><a href="https://github.com/WellingtonSB"><img style="border-radius: 50%;" src="https://i.imgur.com/76YXVmC.jpg" width="140px;" alt=""/><br /><sub><b>Wellington Bezerra</b></sub></a><br /></td>
     
 <!--td align="center"><a href="https://github.com/jaquelinecavalaro"><img style="border-radius: 50%;" src="https://i.imgur.com/Jbypj0K.jpg" width="140px;" alt=""/><br /><sub><b>Jaqueline Cavalaro</b></sub></a><br /></td>  
 
