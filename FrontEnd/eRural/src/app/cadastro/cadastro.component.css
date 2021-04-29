@@ -41,3 +41,7 @@ hr{
 .cadatrese:hover{
     color:yellowgreen;
 }
+.shadownLogin{
+    -webkit-box-shadow: 5px 5px 40px 5px rgba(0,0,0,0.66); 
+box-shadow: 5px 5px 40px 5px rgba(0,0,0,0.66);
+}
