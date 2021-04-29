@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { RodapeComponent } from './rodape/rodape.component';
 import { MenuComponent } from './menu/menu.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RodapeComponent,
-    MenuComponent
+    MenuComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
